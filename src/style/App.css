@@ -5,6 +5,7 @@
   CLASS FOR BACKGROUND
   BODY BACKGROUND
   HIDE SCROLLBAR
+  ANIMATION
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
@@ -51,4 +52,19 @@ body {
 
 .text-xxs {
 	font-size: .65rem;
+}
+
+@keyframes show {
+   from {
+      transform: translateX(-100%) scale(.35);
+      opacity: .55;
+   }
+   to {
+      transform: translateX(0) scale(1);
+      opacity: 1;
+   }
+}
+
+.show {
+   animation: show .55s ease-in-out forwards;
 }

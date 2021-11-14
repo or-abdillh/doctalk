@@ -1,7 +1,7 @@
 <template>
     <main class="shadow-lg bg-primary w-full px-5 pt-4 pb-3">
     	<!-- Topbar -->
-        <section class="flex justify-between">
+        <section class="show flex justify-between">
             <div class="text-gray-50 flex items-center gap-3">
                 <i class="text-sm fas fa-th-large"></i>
                 <p class="text-xs">
@@ -12,19 +12,19 @@
         </section>
 
         <!-- Greetings -->
-        <section class="mt-5 text-sm text-gray-50">
+        <section class="show mt-5 text-sm text-gray-50">
             <h2 class="font-medium">Hello, Marissa</h2>
             <small>What do you need?</small>
         </section>
 
         <!-- Search -->
-        <section class="bg-gray-50 px-3 py-2 gap-2 mt-2 flex rounded items-center">
+        <section class="show bg-gray-50 px-3 py-2 gap-2 mt-2 flex rounded items-center">
             <i class="text-gray-400 text-xs fa fa-search"></i>
             <input type="search" class="focus:outline-none text-xs w-full bg-gray-50" placeholder="Find a doctor or specialist">
         </section>
 
         <!-- Calendar -->
-        <section class="mt-3 flex justify-between gap-2 text-gray-50 overflow-scroll hide-scrollbar">
+        <section class="show mt-3 flex justify-between gap-2 text-gray-50 overflow-scroll hide-scrollbar">
             <template v-for="card in schedules" :key="card">
                 <div class="text-center">
                     <small class="text-xxs">

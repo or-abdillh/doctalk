@@ -1,6 +1,6 @@
 <template>
    <section class="px-5 mt-5">
-      <div class="flex justify-between items-center">
+      <div class="show flex justify-between items-center">
          <span class="text-blue-500 text-xs font-medium">
             My Appointment
          </span>
@@ -9,7 +9,7 @@
          </span>
       </div>
       
-      <div class="mt-3 bg-primary p-3 rounded-lg">
+      <div class="show mt-3 bg-primary p-3 rounded-lg">
          <div class="flex justify-between">
             <div class="flex gap-2 items-start">
                <div>
