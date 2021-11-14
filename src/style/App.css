@@ -4,6 +4,7 @@
   SAVE COLORS
   CLASS FOR BACKGROUND
   BODY BACKGROUND
+  HIDE SCROLLBAR
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
@@ -17,6 +18,17 @@
 
 body {
 	background: #FFFFFF;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 :root {

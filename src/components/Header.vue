@@ -24,11 +24,11 @@
         </section>
 
         <!-- Calendar -->
-        <section class="mt-3 flex justify-between gap-2 text-gray-50">
+        <section class="mt-3 flex justify-between gap-2 text-gray-50 overflow-scroll hide-scrollbar">
             <template v-for="card in schedules" :key="card">
                 <div class="text-center">
                     <small class="text-xxs">
-						{{ card.day }}
+					   	{{ card.day }}
                     </small>
                     <div :class="concat(card.day, card.date) === active ? 'bg-gray-50 text-gray-500' : 'bg-blue-400'"
                      @click="active = concat(card.day, card.date)"
@@ -90,6 +90,26 @@
     		day: 'Fri',
     		date: '01',
     		dot: false
+    	},
+    	{
+    	   day: 'Sat',
+    	   date: '02',
+    	   dot: false
+    	},
+    	{
+    	   day: 'Sun',
+    	   date: '03',
+    	   dot: true
+    	},
+    	{
+    	   day: 'Mon',
+    	   date: '04',
+    	   dot: false
+    	},
+    	{
+    	   day: 'Tue',
+    	   date: '05',
+    	   dot: false
     	}
     ]
  

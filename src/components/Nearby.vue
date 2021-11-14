@@ -1,5 +1,5 @@
 <template>
-   <section class="px-5 py-3 mt-5 mb-10">
+   <section class="px-5 py-3 mt-5 mb-16">
       <div class="flex justify-between items-end">
          <span class="text-blue-500 text-xs font-medium">
             Nearby Doctor <br />
