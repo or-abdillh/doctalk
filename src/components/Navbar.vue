@@ -1,6 +1,6 @@
 <template>
    <nav class="fixed bottom-0 left-0 right-0 bg-white">
-      <section class="w-full px-5 py-3 flex justify-between ">
+      <section class="w-full lg:w-4/12 lg:mx-auto px-5 py-3 flex justify-between ">
          <template v-for="(menu, index) in menus" :key="index">
             <span @click="activeMenu = menu.name" class="duration-300 text-xl" :class="activeMenu === menu.name ? 'text-blue-400' : 'text-gray-300'">
                <i :class="menu.icon"></i>
