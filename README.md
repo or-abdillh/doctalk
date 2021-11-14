@@ -27,8 +27,7 @@ by [@ui.adnan](https://instagram.com/ui.adnan?utm_medium=copy_link)
 - <code>npm run dev</code>
 
 ### Demo 
-- [Doctalk - Online Medical App](https://online-shop-farm.vercel.app/)
-- [Reels Instagram](https://www.instagram.com/reel/CV-YQu6FyZ7/?utm_medium=copy_link)
+- [Doctalk - Online Medical App](https://doctalk.vercel.app/)
 
 [Oka R Abdillah ](http://github.com/or-abdillh)
 <br>
