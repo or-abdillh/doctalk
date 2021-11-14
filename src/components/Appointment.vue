@@ -1,7 +1,7 @@
 <template>
    <section class="px-5 mt-5">
       <div class="flex justify-between items-center">
-         <span class="text-blue-500 text-sm font-medium">
+         <span class="text-blue-500 text-xs font-medium">
             My Appointment
          </span>
          <span class="text-gray-400 text-xs font-medium">
@@ -11,20 +11,18 @@
       
       <div class="mt-3 bg-primary p-3 rounded-lg">
          <div class="flex justify-between">
-            <div class="flex gap-2">
-               <img src="/profile.jpg" class="rounded-lg" width="60" />
-               <div class="text-gray-100">
-                  <strong class="text-xs">Dr. Amanda Kirana</strong>
+            <div class="flex gap-2 items-start">
+               <div>
+                  <img src="/profile.jpg" class="rounded-lg" width="50" />
+               </div>
+               <div class="text-gray-100 flex flex-wrap">
+                  <strong class="text-xs block w-full">Dr. Amanda Kirana</strong>
                   <p class="text-xxs">Psychologist</p>
                </div>
             </div>
-            <div>
-               <span class="bg-green-400 px-2 py-1 rounded-lg grid place-items-center">
-                  <i class="text-gray-50 text-sm fas fa-phone-alt"></i>
-               </span>
-            </div>
+            <i class="text-gray-50 text-xl fas fa-phone-square"></i>
          </div>
-         <div class="bg-blue-300 mt-3 flex justify-between items-center text-gray-300 rounded-lg bg-opacity-50 py-1 px-3">
+         <div class="bg-blue-300 mt-3 flex justify-between items-center text-gray-100 rounded-lg py-1 px-3">
             <span class="text-xxs gap-2">
                <i class="text-xxs fa fa-clock"></i>
                <small>

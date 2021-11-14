@@ -2,6 +2,7 @@
 
   <Header></Header>
   <Appointment></Appointment>
+  <Nearby></Nearby>
   
 </template>
 
@@ -9,5 +10,6 @@
 
   import Header from './components/Header.vue'
   import Appointment from './components/Appointment.vue'
+  import Nearby from './components/Nearby.vue'
 
 </script>

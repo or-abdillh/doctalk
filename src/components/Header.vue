@@ -1,5 +1,5 @@
 <template>
-    <main class="bg-primary w-full px-5 pt-4 pb-3">
+    <main class="shadow-lg bg-primary w-full px-5 pt-4 pb-3">
     	<!-- Topbar -->
         <section class="flex justify-between">
             <div class="text-gray-50 flex items-center gap-3">
